@@ -1,63 +1,31 @@
-# Nuxt 3 Minimal Starter
+<p align="center">
+<img width="128px" src="assets/images/kapitalkompassen.svg" alt="KapitalKompassen logo" width=32 style="vertical-align:middle">
+<h1 align="center">KapitalKompassen</h1>
+</p>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Website URL](#website-url)
+- [Project description](#project-description)
+- [Installation](#installation)
+  - [Dependencies](#dependencies)
 
-## Setup
+## Website URL
+https://kapitalkompassen.web.app/
 
-Make sure to install the dependencies:
+## Project description
+An intuitive and modern web app to simplify your investment planning and calculate your investments goals with ease. KapitalKompassen is a personal finance tool based that is tailored for people with ISK saving accounts in Sweden
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+## Installation
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+npm i
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
 ```
 
-Locally preview production build:
+To get a development build, run `npm run dev`
 
-```bash
-# npm
-npm run preview
+### Dependencies
+```json
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
