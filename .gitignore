@@ -29,3 +29,5 @@ logs
 # Firebase
 **/.firebase
 **/.firebaserc
+firebaseConfig.ts
+

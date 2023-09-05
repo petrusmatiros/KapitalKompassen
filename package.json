@@ -10,6 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "nuxi": "^3.7.3",
     "nuxt": "^3.7.1"
+  },
+  "dependencies": {
+    "@esbuild/linux-x64": "^0.19.2",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "firebase": "^10.3.1"
   }
 }

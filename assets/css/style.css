@@ -1,0 +1,226 @@
+:root {
+  /* Color */
+  --hue: 225;
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --bg-main: hsl(var(--hue), 0%, 95%);
+  --bg-secondary: hsl(var(--hue), 0%, 90%);
+  --accent: hsl(var(--hue), 100%, 25%);
+  --accent-secondary: hsl(var(--hue), 100%, 80%);
+  --border: hsl(0, 0%, 90%);
+  --overlay: hsla(0, 0%, 0%, 0.5);
+  /* Border */
+  --border-radius: 0.5rem;
+
+  /* Gap */
+  --gap: 0.5rem;
+  --gap-2: 1rem;
+  --gap-3: 1.5rem;
+
+  /* Margin */
+  --margin: 0.5rem;
+  --margin-2: 1rem;
+  --margin-3: 1.5rem;
+
+  /* Padding */
+  --padding: 0.5rem;
+  --padding-2: 1rem;
+  --padding-3: 1.5rem;
+
+  /* Font size */
+  --font-size-small: 0.75rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 2rem;
+
+  /* Font weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: break-spaces !important;
+  will-change: transform;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============= Modular classes ============  */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: start;
+  align-items: start;
+}
+
+.flex-start-center {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-center-start {
+  justify-content: center;
+  align-items: start;
+}
+
+.flex-space-between-start {
+  justify-content: space-between;
+  align-items: start;
+}
+
+.flex-space-between-center {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-half {
+  gap: var(--gap);
+}
+
+.gap-full {
+  gap: var(--gap-2);
+}
+
+.gap-full-quarter {
+  gap: var(--gap-3);
+}
+
+.w100 {
+  width: 100vw !important;
+}
+
+.h100 {
+  height: 100vh !important;
+}
+.p0 {
+  padding: 0 !important;
+}
+
+.p1 {
+  padding: var(--padding) !important;
+}
+
+.p2 {
+  padding: var(--padding-2) !important;
+}
+
+.p3 {
+  padding: var(--padding-3) !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.m1 {
+  margin: var(--margin) !important;
+}
+
+.m2 {
+  margin: var(--margin-2) !important;
+}
+
+.m3 {
+  margin: var(--margin-3) !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay);
+  -webkit-backdrop-filter: blur(0.25rem);
+          backdrop-filter: blur(0.25rem);
+  z-index: 1;
+}
+
+.nothing {
+  background: none !important;
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+}
+
+/* ============= Modular classes END ============  */
+
+a {
+  color: var(--accent);
+  -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:active {
+  color: var(--accent-active);
+}
+
+h1,
+h2,
+h3 {
+  font-size: var(--font-size-medium);
+  /* margin: 0 !important;
+  word-wrap: break-word; */
+}
+p {
+  font-size: var(--font-small);
+  /* margin: 0 !important;
+  word-wrap: break-word;
+  text-align: justify;
+  white-space: break-spaces !important; */
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  /* Styles for screens larger than 1024px (Desktop) */
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for screens between 768px and 1023px (Tablet) */
+}
+
+@media only screen and (max-width: 767px) {
+  /* Styles for screens between 320px and 767px (Mobile) */
+}
