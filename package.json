@@ -10,11 +10,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "nodemo": "^1.0.0",
     "nuxi": "^3.7.3",
     "nuxt": "^3.7.1"
   },
   "dependencies": {
-    "@esbuild/linux-x64": "^0.19.2",
+    "@esbuild/win32-x64": "^0.19.2",
+    "@nuxt/image": "^1.0.0-rc.1",
     "@nuxtjs/google-fonts": "^3.0.2",
     "firebase": "^10.3.1"
   }

@@ -1,18 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  vite: {
-    server: {
-      hmr: {
-        port: 3008,
-      },
-    },
-  },
   typescript: {
     strict: true,
   },
+  css: [
+    "@/assets/css/style.css",
+  ],
+  app: {
+    keepalive: true,
+  },
+  watch: ["~/server/**/*"],
   ssr: false,
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: [
+    '@nuxt/image',
     [
       "@nuxtjs/google-fonts",
       {
