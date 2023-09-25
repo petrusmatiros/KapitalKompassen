@@ -14,7 +14,7 @@
 https://kapitalkompassen.web.app/
 
 ## Project description
-An intuitive and modern web app to simplify your investment planning and calculate your investments goals with ease. KapitalKompassen is a personal finance tool based that is tailored for people with ISK saving accounts in Sweden
+An intuitive and modern web app to simplify your investment planning and calculate your investments goals with ease. KapitalKompassen is a personal finance tool, tailored for people with ISK saving accounts in Sweden
 
 
 ## Installation
