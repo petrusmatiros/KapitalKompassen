@@ -4,7 +4,6 @@
 </p>
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
 - [Website URL](#website-url)
 - [Project description](#project-description)
 - [Installation](#installation)
