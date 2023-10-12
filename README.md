@@ -22,7 +22,7 @@ npm i
 npm run build
 ```
 
-To get a development build, run `npm run dev`
+To start a development server, run `npm run dev`
 
 ### Dependencies
 ```json
