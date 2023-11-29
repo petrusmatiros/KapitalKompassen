@@ -22,8 +22,8 @@ npm i
 npm run build
 ```
 
-[!NOTE]
-To start a development server, run `npm run dev`
+> [!NOTE]
+> To start a development server, run `npm run dev`
 
 ### Dependencies
 ```json
