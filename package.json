@@ -12,7 +12,7 @@
     "@nuxt/devtools": "latest",
     "nodemo": "^1.0.0",
     "nuxi": "^3.7.3",
-    "nuxt": "^3.7.3"
+    "nuxt": "^3.12.4"
   },
   "dependencies": {
     "@esbuild/win32-x64": "^0.19.2",
