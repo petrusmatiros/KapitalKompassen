@@ -12,11 +12,11 @@
     "@nuxt/devtools": "latest",
     "nodemo": "^1.0.0",
     "nuxi": "^3.7.3",
-    "nuxt": "^3.19.0"
+    "nuxt": "^3.21.10"
   },
   "dependencies": {
     "@esbuild/win32-x64": "^0.19.2",
-    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxt/image": "^2.1.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "firebase": "^11.2.0"
   }
